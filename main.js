@@ -1,19 +1,7 @@
- 
-// document.write("<h1>ctrl+play</h1>")
-// //esse é o comentario de uma linha
-// /* esse é o comentario 
-//  de mutiplas linhas*/
- 
-//  //uma declaração
-//   var  x ;
-// //mais de uma declaração
-// var y ;
-// var z ;
-// // mutiplas declarações
-// var a ; b ; c 
-// //declaração e inicialização em uma unica linha
-// var alfa = 0 ; beta= 100 ;
- 
-var idade = 10 ;
-var maisVelho = 3 * idade;
-document.write(maisVelho);
+var lista = [];
+lista["serie"] = ["sexta feira 13", "cocorico", "kokoio"];
+lista["filme"] = [];
+lista["filme"][0] = "batman";
+lista["filme"][1] = "mulher-maravilha";
+document.write(lista["serie"][1]);
+document.write(lista["filme"][1]);
